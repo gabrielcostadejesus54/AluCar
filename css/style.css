@@ -1,0 +1,126 @@
+/* Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1200px;
+    width: 100%;
+}
+/* ***** */
+
+
+
+/* Header */
+header .logo{
+    padding: 20px 0;
+}
+
+header .overlay{
+    text-align: right;
+    color: white;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+header .banner{
+    background-image: url('../img/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+/* ***** */
+
+
+
+/* Sobre Nós */
+.sobre-nos{
+    padding: 50px 0;
+}
+
+.sobre-nos p{
+    margin: 20px 0;
+}
+
+.sobre-nos .galeria{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-nos .galeria img{
+    width: 33%;
+}
+
+.borda-esquerda{
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+/* ***** */
+
+
+
+/* Contato */
+.divisor{
+    background-color: #D92121;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contato h2{
+    color: white;
+    font-size: 40px;
+    background-color: #6C0000;
+}
+
+.contato h3{
+    margin:60px 0 30px 0;
+}
+
+form fieldset{
+    margin: 20px 0;
+    padding: 20px;
+}
+
+form fieldset legend{
+    margin-left: 30px;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+.campo input, select{
+    width: 100%;
+    height: 40px;
+    padding-left: 7px;
+
+}
+
+button{
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    background-color: #D92121;
+    padding: 10px 0;
+}
+/* ***** */
+
+/* footer */
+footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #F8F8F8;
+    color: rgb(255, 140, 140);
+}
+/* ***** */
+
+

@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+    .sobre-nos .galeria{
+        flex-wrap: wrap;
+    }
+    
+    .sobre-nos .galeria img{
+        width: 49%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .sobre-nos .galeria{
+        flex-wrap: wrap;
+    }
+    
+    .sobre-nos .galeria img{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
